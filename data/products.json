@@ -1,0 +1,61 @@
+[
+  {
+    "id": "PRD-HEAD-01",
+    "name": "NovaAcoustics Noise-Cancelling ANC Headphones Pro",
+    "category": "Audio",
+    "price": 4999,
+    "warrantyMonths": 12,
+    "returnable": true,
+    "specifications": {
+      "Driver": "40mm Beryllium",
+      "Battery": "45 Hours ANC",
+      "Connectivity": "Bluetooth 5.3 + 3.5mm",
+      "Weight": "240g"
+    },
+    "reviewSummary": "4.8/5 (1,240 ratings) - Renowned for comfort and deep bass."
+  },
+  {
+    "id": "PRD-PHONE-02",
+    "name": "NovaSpeed 5G Ultra Smartphone (256GB Midnight Black)",
+    "category": "Smartphones",
+    "price": 14999,
+    "warrantyMonths": 12,
+    "returnable": true,
+    "specifications": {
+      "Display": "6.7-inch AMOLED 120Hz",
+      "Processor": "Snapdragon 8s Gen 3",
+      "Camera": "108MP OIS Triple",
+      "Battery": "5000mAh 68W Turbo"
+    },
+    "reviewSummary": "4.6/5 (820 ratings) - Flagship performance at value tier."
+  },
+  {
+    "id": "PRD-LAPTOP-03",
+    "name": "NovaBook Pro 15 M2 Ultralight Laptop (16GB / 1TB SSD)",
+    "category": "Computers",
+    "price": 64999,
+    "warrantyMonths": 12,
+    "returnable": true,
+    "specifications": {
+      "Processor": "12-Core Core-Ultra 7",
+      "Memory": "16GB LPDDR5X",
+      "Storage": "1TB PCIe Gen4 NVMe",
+      "Display": "15.6-inch 3K OLED 120Hz"
+    },
+    "reviewSummary": "4.9/5 (410 ratings) - Top choice for power developers and creators."
+  },
+  {
+    "id": "PRD-ACC-04",
+    "name": "NovaPulse Ergonomic Wireless Mouse & Keyboard Combo",
+    "category": "Accessories",
+    "price": 2499,
+    "warrantyMonths": 6,
+    "returnable": true,
+    "specifications": {
+      "Layout": "Full 108-Key Silent Scissor",
+      "Mouse DPI": "4000 DPI Multi-surface",
+      "Connection": "2.4GHz USB Dongle + Dual BT"
+    },
+    "reviewSummary": "4.4/5 (310 ratings) - Quiet keys and long battery endurance."
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "id": "MSG-101",
+    "customerId": "CUST-1001",
+    "orderId": "NM-1001",
+    "role": "CUSTOMER",
+    "message": "Hi, I received my NovaAcoustics headphones last week. The sound is good, but the earcups feel slightly too tight for my head size.",
+    "createdAt": "2026-09-28T11:00:00.000Z"
+  },
+  {
+    "id": "MSG-102",
+    "customerId": "CUST-1001",
+    "orderId": "NM-1001",
+    "role": "AGENT",
+    "message": "Hello Ananya, thank you for reaching out! Since you are a valued Gold tier member, you enjoy an extended 21-day return window. If you wish to initiate a return or exchange, let me know.",
+    "createdAt": "2026-09-28T11:02:00.000Z"
+  },
+  {
+    "id": "MSG-201",
+    "customerId": "CUST-1002",
+    "orderId": "NM-2002",
+    "role": "CUSTOMER",
+    "message": "Where is my package? It says delivered on Delhivery app but I was not home.",
+    "createdAt": "2026-09-28T19:30:00.000Z"
+  },
+  {
+    "id": "MSG-202",
+    "customerId": "CUST-1002",
+    "orderId": "NM-2002",
+    "role": "AGENT",
+    "message": "Hello Rohan, our tracking records show an OTP verification completed at 4:45 PM on Sept 28. Ticket #TCK-201 has been logged with our logistics partner for courier cross-verification.",
+    "createdAt": "2026-09-28T19:35:00.000Z"
+  },
+  {
+    "id": "MSG-401",
+    "customerId": "CUST-1004",
+    "orderId": "NM-4004",
+    "role": "CUSTOMER",
+    "message": "My NovaBook Pro laptop screen started flickering with horizontal black lines whenever I open the lid past 90 degrees.",
+    "createdAt": "2026-10-02T16:00:00.000Z"
+  }
+]

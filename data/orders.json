@@ -1,0 +1,138 @@
+[
+  {
+    "id": "NM-1001",
+    "customerId": "CUST-1001",
+    "status": "DELIVERED",
+    "placedAt": "2026-09-20T10:00:00.000Z",
+    "deliveredAt": "2026-09-22T14:30:00.000Z",
+    "totalAmount": 4999,
+    "paymentStatus": "PAID",
+    "paymentMethod": "UPI / HDFC",
+    "deliveryAddress": "Flat 402, Greenfield Apts, Indiranagar, Bengaluru, KA 560038",
+    "deliveryProof": {
+      "otpVerified": true,
+      "deliveredAt": "2026-09-22T14:30:00.000Z",
+      "carrier": "BlueDart Express",
+      "trackingNumber": "BD99281726"
+    },
+    "items": [
+      {
+        "productId": "PRD-HEAD-01",
+        "productName": "NovaAcoustics Noise-Cancelling ANC Headphones Pro",
+        "quantity": 1,
+        "unitPrice": 4999
+      }
+    ],
+    "existingRefundAmount": 0
+  },
+  {
+    "id": "NM-2002",
+    "customerId": "CUST-1002",
+    "status": "DELIVERED",
+    "placedAt": "2026-09-25T09:15:00.000Z",
+    "deliveredAt": "2026-09-28T16:45:00.000Z",
+    "totalAmount": 14999,
+    "paymentStatus": "PAID",
+    "paymentMethod": "Credit Card / ICICI",
+    "deliveryAddress": "Villa 12, Palm Meadows, Whitefield, Bengaluru, KA 560066",
+    "deliveryProof": {
+      "otpVerified": true,
+      "deliveredAt": "2026-09-28T16:45:00.000Z",
+      "carrier": "Delhivery Surface",
+      "trackingNumber": "DL8829102"
+    },
+    "items": [
+      {
+        "productId": "PRD-PHONE-02",
+        "productName": "NovaSpeed 5G Ultra Smartphone (256GB Midnight Black)",
+        "quantity": 1,
+        "unitPrice": 14999
+      }
+    ],
+    "existingRefundAmount": 0
+  },
+  {
+    "id": "NM-3003",
+    "customerId": "CUST-1003",
+    "status": "DELIVERED",
+    "placedAt": "2026-09-10T11:00:00.000Z",
+    "deliveredAt": "2026-09-14T12:00:00.000Z",
+    "totalAmount": 7499,
+    "paymentStatus": "PAID",
+    "paymentMethod": "Net Banking / SBI",
+    "deliveryAddress": "B-104, Sunrise Heights, Powai, Mumbai, MH 400076",
+    "deliveryProof": {
+      "otpVerified": true,
+      "deliveredAt": "2026-09-14T12:00:00.000Z",
+      "carrier": "Shadowfax Logistics",
+      "trackingNumber": "SF394819"
+    },
+    "items": [
+      {
+        "productId": "PRD-HEAD-01",
+        "productName": "NovaAcoustics Noise-Cancelling ANC Headphones Pro",
+        "quantity": 1,
+        "unitPrice": 4999
+      },
+      {
+        "productId": "PRD-ACC-04",
+        "productName": "NovaPulse Ergonomic Wireless Mouse & Keyboard Combo",
+        "quantity": 1,
+        "unitPrice": 2500
+      }
+    ],
+    "existingRefundAmount": 2500
+  },
+  {
+    "id": "NM-4004",
+    "customerId": "CUST-1004",
+    "status": "DELIVERED",
+    "placedAt": "2026-05-15T14:00:00.000Z",
+    "deliveredAt": "2026-05-18T18:00:00.000Z",
+    "totalAmount": 64999,
+    "paymentStatus": "PAID",
+    "paymentMethod": "Corporate Card / Axis",
+    "deliveryAddress": "Flat 7B, Sky Tower, Banjara Hills, Hyderabad, TS 500034",
+    "deliveryProof": {
+      "otpVerified": true,
+      "deliveredAt": "2026-05-18T18:00:00.000Z",
+      "carrier": "BlueDart Air",
+      "trackingNumber": "BD100492"
+    },
+    "items": [
+      {
+        "productId": "PRD-LAPTOP-03",
+        "productName": "NovaBook Pro 15 M2 Ultralight Laptop (16GB / 1TB SSD)",
+        "quantity": 1,
+        "unitPrice": 64999
+      }
+    ],
+    "existingRefundAmount": 0
+  },
+  {
+    "id": "NM-1005",
+    "customerId": "CUST-1001",
+    "status": "DELIVERED",
+    "placedAt": "2024-11-10T10:00:00.000Z",
+    "deliveredAt": "2024-11-13T12:00:00.000Z",
+    "totalAmount": 2499,
+    "paymentStatus": "PAID",
+    "paymentMethod": "UPI / HDFC",
+    "deliveryAddress": "Flat 402, Greenfield Apts, Indiranagar, Bengaluru, KA 560038",
+    "deliveryProof": {
+      "otpVerified": true,
+      "deliveredAt": "2024-11-13T12:00:00.000Z",
+      "carrier": "BlueDart Express",
+      "trackingNumber": "BD883719"
+    },
+    "items": [
+      {
+        "productId": "PRD-ACC-04",
+        "productName": "NovaPulse Ergonomic Wireless Mouse & Keyboard Combo",
+        "quantity": 1,
+        "unitPrice": 2499
+      }
+    ],
+    "existingRefundAmount": 0
+  }
+]

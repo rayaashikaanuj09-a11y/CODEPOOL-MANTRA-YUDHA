@@ -1,0 +1,20 @@
+[
+  {
+    "id": "ACT-INIT-001",
+    "type": "TICKET_CREATED",
+    "customerId": "CUST-1002",
+    "orderId": "NM-2002",
+    "status": "SUCCESS",
+    "createdAt": "2026-09-29T10:00:00.000Z",
+    "payload": {
+      "ticketId": "TCK-201",
+      "reason": "Carrier OTP verification audit required"
+    },
+    "verificationProof": {
+      "verifiedAt": "2026-09-29T10:00:02.000Z",
+      "authority": "ACTION_FIREWALL",
+      "ruleEnforced": "DEL-1.0_OTP_CONFLICT",
+      "details": "Support ticket created and assigned to Logistics Escalations queue"
+    }
+  }
+]

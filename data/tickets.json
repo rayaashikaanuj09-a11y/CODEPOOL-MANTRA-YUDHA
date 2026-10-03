@@ -1,0 +1,22 @@
+[
+  {
+    "id": "TCK-201",
+    "customerId": "CUST-1002",
+    "orderId": "NM-2002",
+    "status": "OPEN",
+    "category": "DELIVERY",
+    "createdAt": "2026-09-29T10:00:00.000Z",
+    "summary": "Customer contested smartphone delivery via automated IVR; delivery logs show OTP 4921 verified by delivery agent at front gate.",
+    "riskFlags": ["OTP_DELIVERY_CONTRADICTION", "HIGH_VALUE_PHONE"]
+  },
+  {
+    "id": "TCK-301",
+    "customerId": "CUST-1003",
+    "orderId": "NM-3003",
+    "status": "IN_PROGRESS",
+    "category": "REFUND",
+    "createdAt": "2026-09-18T14:20:00.000Z",
+    "summary": "Previous return requested on accessories package; partial concession of ₹2,500 credited.",
+    "riskFlags": ["REPEAT_REFUND_SEEKER"]
+  }
+]

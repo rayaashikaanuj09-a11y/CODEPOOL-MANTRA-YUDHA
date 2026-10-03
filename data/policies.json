@@ -1,0 +1,67 @@
+[
+  {
+    "id": "RET-2.0",
+    "version": "2.0",
+    "status": "INACTIVE",
+    "effectiveFrom": "2024-01-01T00:00:00.000Z",
+    "effectiveTo": "2024-12-31T23:59:59.000Z",
+    "category": "RETURNS",
+    "rules": {
+      "standardReturnWindowDays": 7,
+      "goldTierExtensionDays": 3,
+      "restockingFeePercent": 10,
+      "requireReturnBeforeRefund": true
+    },
+    "humanReadableSummary": "Returns Policy v2.0 (Historical 2024): 7-day standard return window + 3-day Gold extension, 10% restocking fee. Return required prior to refund."
+  },
+  {
+    "id": "RET-3.0",
+    "version": "3.0",
+    "status": "ACTIVE",
+    "effectiveFrom": "2025-01-01T00:00:00.000Z",
+    "category": "RETURNS",
+    "rules": {
+      "standardReturnWindowDays": 14,
+      "goldTierExtensionDays": 7,
+      "restockingFeePercent": 5,
+      "requireReturnBeforeRefund": true
+    },
+    "humanReadableSummary": "Returns Policy v3.0 (Active 2025-Present): 14-day standard return window + 7-day Gold extension (total 21 days for Gold members), 5% restocking fee."
+  },
+  {
+    "id": "REF-1.0",
+    "version": "1.0",
+    "status": "ACTIVE",
+    "effectiveFrom": "2025-01-01T00:00:00.000Z",
+    "category": "REFUNDS",
+    "rules": {
+      "restockingFeePercent": 5,
+      "autoRefundApprovalLimit": 10000,
+      "requireReturnBeforeRefund": true,
+      "suspiciousRefundRequiresEscalation": true
+    },
+    "humanReadableSummary": "Refund Policy v1.0 (Active): Max Refund = min(Requested, Order Value - Prior Refunds - Restocking Fee). Automated execution capped at ₹10,000 threshold. Amounts above ₹10,000 mandate supervisor escalation."
+  },
+  {
+    "id": "DEL-1.0",
+    "version": "1.0",
+    "status": "ACTIVE",
+    "effectiveFrom": "2025-01-01T00:00:00.000Z",
+    "category": "DELIVERY",
+    "rules": {
+      "otpDeliveryConflictRequiresEscalation": true
+    },
+    "humanReadableSummary": "Delivery Policy v1.0 (Active): Where carrier dispatch records confirm customer OTP verification, non-delivery claims constitute a high-severity contradiction. Auto-refund and in-transit address re-routing are strictly prohibited; requires human logistics escalation."
+  },
+  {
+    "id": "WAR-1.0",
+    "version": "1.0",
+    "status": "ACTIVE",
+    "effectiveFrom": "2025-01-01T00:00:00.000Z",
+    "category": "WARRANTY",
+    "rules": {
+      "warrantyRequiresSpecialist": true
+    },
+    "humanReadableSummary": "Warranty Policy v1.0 (Active): Defective hardware or functional degradation within manufacturer warranty period must be routed to Authorized Service Specialist for RMA / OEM inspection. Ordinary purchase returns/refunds are blocked."
+  }
+]

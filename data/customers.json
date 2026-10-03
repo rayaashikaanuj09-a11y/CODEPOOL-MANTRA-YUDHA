@@ -1,0 +1,38 @@
+[
+  {
+    "id": "CUST-1001",
+    "name": "Ananya Sharma",
+    "email": "ananya.sharma@example.com",
+    "phoneMasked": "+91 98451 •••••",
+    "loyaltyTier": "GOLD",
+    "accountCreatedAt": "2024-02-15T08:30:00.000Z",
+    "refundRiskFlags": []
+  },
+  {
+    "id": "CUST-1002",
+    "name": "Rohan Verma",
+    "email": "rohan.verma@example.com",
+    "phoneMasked": "+91 99120 •••••",
+    "loyaltyTier": "STANDARD",
+    "accountCreatedAt": "2024-08-10T11:20:00.000Z",
+    "refundRiskFlags": ["DELIVERY_DISPUTE_HISTORY"]
+  },
+  {
+    "id": "CUST-1003",
+    "name": "Vikram Mehta",
+    "email": "vikram.mehta@example.com",
+    "phoneMasked": "+91 97230 •••••",
+    "loyaltyTier": "STANDARD",
+    "accountCreatedAt": "2024-01-20T09:45:00.000Z",
+    "refundRiskFlags": ["REPEATED_REFUND_REQUESTS", "HIGH_RETURN_RATIO"]
+  },
+  {
+    "id": "CUST-1004",
+    "name": "Priya Iyer",
+    "email": "priya.iyer@example.com",
+    "phoneMasked": "+91 94480 •••••",
+    "loyaltyTier": "SILVER",
+    "accountCreatedAt": "2023-11-05T14:15:00.000Z",
+    "refundRiskFlags": []
+  }
+]
